@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;;
+    font-size: 16px;
+    padding: 0px;
+
+}
+
+h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 3em;
+
+}
+
+h4 {
+    font-size: 2em;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    padding:1%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.name-container{
+    position: relative;
+    width: 30%;
+    float: left;
+
+}
+
+nav {
+    display:flex;
+    align-self: flex-end;
+    width: 70%;
+
+}
+
+nav ul{
+    display:flex; 
+    justify-content: flex-end; 
+  list-style:none;
+  width: 100%;
+  align-self: flex-end;
+
+}
+
+nav li+li { border-left: 1px solid #000000 }
+
+nav li:last-child{
+    padding-right: 2%;
+}
+
+nav li {
+    display:flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    align-self: flex-end;
+}

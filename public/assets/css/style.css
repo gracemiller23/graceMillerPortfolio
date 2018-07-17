@@ -157,6 +157,9 @@ white-space:pre;
 
 
 /*homepage styles*/
+.page-top-image{
+    display: none;
+}
 
 .home-top{
     position: relative;
@@ -183,6 +186,17 @@ white-space:pre;
        
      
      }
+
+     .page-top-image{
+        display: inline-block;
+        position: relative;
+        transform: rotate(25deg);
+        margin-left:-20%;
+        width: 100%;
+        margin-top: -5%;
+        z-index: -100;
+    
+    }
      .name-container{
 
         padding-left: 7%;
@@ -205,6 +219,18 @@ white-space:pre;
        
      
      }
+
+
+     .page-top-image{
+   
+        transform: rotate(25deg);
+        width:60%;
+        margin-left:55%;
+        margin-top:-30%;
+        position:relative;
+        z-index:-100;
+    
+    }
 
      .portfolio-btn-box {
 

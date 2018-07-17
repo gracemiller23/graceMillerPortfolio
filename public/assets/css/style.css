@@ -3,16 +3,29 @@
 }
 
 body{
-    font-family: 'Assistant', sans-serif;;
+    font-family: 'Montserrat', sans-serif;    
     font-size: 16px;
     padding: 0px;
+    
 
 }
 
 h1 {
     font-family: 'La Belle Aurore', cursive;
-    font-size: 3em;
+    font-size: 4em;
 
+}
+
+
+h2 {
+
+        font-family: 'La Belle Aurore', cursive;
+        font-size: 3em;
+    line-height: 100%;
+}
+h3 {
+    font-size: 0.75em;
+    line-height: 80%;
 }
 
 h4 {
@@ -20,46 +33,185 @@ h4 {
 }
 
 header {
-    display: flex;
-    align-items: baseline;
     width: 100%;
-    padding:1%;
-    height: 50px;
-    border-bottom: 1px solid gray;
+    padding:0 1% 0 1%;
+
 }
 
 .name-container{
-    position: relative;
-    width: 30%;
-    float: left;
+
+    padding-left: 3%;
+    padding-top: 2%;
 
 }
 
 nav {
-    display:flex;
-    align-self: flex-end;
-    width: 70%;
 
+    float: left !important;
+
+}
+
+.navbar-toggler{
+    float:left !important;
+    margin-left: -50%;
 }
 
 nav ul{
-    display:flex; 
-    justify-content: flex-end; 
-  list-style:none;
-  width: 100%;
-  align-self: flex-end;
+    width: 150px;
+    position:relative;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 100;
+   
+}
+
+/*adjustments*/
+.close-lines{
+    line-height: 70%;
+}
+
+.centertxt {
+    text-align: center;
+}
+
+.cursive-font{
+    font-family: 'La Belle Aurore', cursive;
 
 }
 
-nav li+li { border-left: 1px solid #000000 }
+.vertical-space{
+    margin-top:3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
-nav li:last-child{
-    padding-right: 2%;
 }
 
-nav li {
+.underline{
+    text-decoration: underline;
+}
+
+.section-border{
+    border-top: 1px dashed black;
+}
+
+
+
+/*page styles*/
+
+.portfolio-btn-box {
     display:flex;
-    padding-right: 5%;
-    padding-left: 5%;
-    align-self: flex-end;
+    width: 70%; 
+    height:50px;
+    margin: 4% auto; 
+    vertical-align:middle !important;
+
+}
+
+.specialtxt{
+
+    font-size: 3em;
+white-space:pre;
+}
+
+.portfolio-button{
+    display:inline-block;
+    margin: 2%;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.portfolio-button:active{
+    background-color:black;
+    color:white;
+}
+
+.scroll-portfolio{
+    display:inline-block;
+    border: 1px dashed black;
+   width:100%;  
+   margin:2%;
+   height: 100%;
+   white-space: nowrap; 
+   overflow:scroll;
+}
+
+.portfolio-display{
+    display:block !important;
+    width:50%; 
+    margin:-1% auto; 
+    transform: rotate(15deg);
+    z-index: 110;
+   
+}
+
+.portfolio-preview{
+    width: 43%;
+    height: auto;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 18%;
+    right: 29%;
+    z-index: -10;
+}
+
+
+/*homepage styles*/
+
+.home-top{
+    position: relative;
+   width: 115%;
+    transform: rotate(28deg);
+    margin-left: -20%;
+    margin-top: -5%;
+    z-index: -100;
+
+}
+
+.skills-row{
+    padding: 1% 2%;
+    border: 1px dashed black;
+    margin: 6% 1% 2% 1%;
+}
+
+@media only screen and (max-width: 740px) {
+
+    .home-top{
+         transform: rotate(25deg);
+         margin-left:-20%;
+         width: 110%;
+       
+     
+     }
+     .name-container{
+
+        padding-left: 7%;
+        padding-top: 2%;
+    
+    }
+    
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .home-top{
+         transform: rotate(25deg);
+         width:90%;
+         margin-left:48%;
+         margin-top:-30%;
+         position:relative;
+         z-index:-100;
+       
+     
+     }
+
+     .portfolio-btn-box {
+
+        margin: 7% auto; 
+       
+    
+    }
+    
+
 }

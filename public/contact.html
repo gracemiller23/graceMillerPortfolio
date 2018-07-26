@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name=viewport content=”width=device-width, initial-scale=1”>
-    <title>Grace Miller</title>
+    <title>Grace Miller - Contact</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico"/>
 
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -88,33 +88,39 @@
 
                 <div class="row">
                     <div class="col">
-                        <form action="action_page.php" id="contactme">
+                            <small id="requiredFields" class="form-text text-muted">* indicates a required field.</small>
 
-                            <div class="form-group">
-                                <label for="firstname">First Name</label>
-                                <input type="text" class="form-control" id="firstname"  name="firstname"placeholder="First Name" required>
-                            </div>
-
-                            <div class="form-group">
-                                    <label for="lastname">Last Name</label>
-                                    <input type="text" class="form-control" id="lastname"  name="lastname" placeholder="Last Name" required>
-                                </div>
-
-                                <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email"  aria-describedby="emailHelp" name="email" placeholder="Your Email" required>
-                                        <small id="emailHelp" class="form-text cursive-font">Don't worry; I'm not sharing your info or planning to spam you.</small>
-
-                                    </div>
-
-                                    <div class="form-group">
-                                            <label for="message">Talk to me:</label>
-                                            <textarea class="form-control" form="contactme" id="message" rows="3"></textarea>
+                            <form name="contactform" method="post" action="/assets/php/contact.php">
     
-                                        </div>
-
-                                        <button type="submit" class="btn btn-primary mb-2">Send</button>
-                        </form>
+                                <div class="form-group">
+                                      <label for="first_name">First Name *</label>
+                                    
+                                      <input  type="text" name="first_name" maxlength="50" size="30" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="last_name">Last Name *</label>
+                                     
+                                      <input  type="text" name="last_name" maxlength="50" size="30" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="email">Email Address *</label>
+                              
+                                      <input  type="text" name="email" maxlength="80" size="30" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="telephone">Telephone Number</label>
+                                     
+                                      <input  type="text" name="telephone" maxlength="30" size="30" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="comments">Comments *</label>
+                                     
+                                      <textarea  name="comments" maxlength="1000" cols="25" rows="6" class="form-control"></textarea>
+                                    </div>
+                                 
+                                      <input type="submit" value="Submit"> 
+                                     
+                                    </form>
                     </div>
                 </div>
 

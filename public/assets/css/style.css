@@ -38,6 +38,11 @@ header {
 
 }
 
+a{
+    color: black;
+    text-decoration: underline;
+}
+
 .name-container{
 
     padding-left: 3%;
@@ -71,6 +76,10 @@ nav ul{
     line-height: 70%;
 }
 
+.inline{
+    display: inline !important;
+}
+
 .centertxt {
     text-align: center;
 }
@@ -94,7 +103,9 @@ nav ul{
 .section-border{
     border-top: 1px dashed black;
 }
-
+ .top-row{
+     margin-top:3%;
+ }
 
 
 /*page styles*/
@@ -139,7 +150,7 @@ white-space:pre;
 .portfolio-display{
     display:block !important;
     width:50%; 
-    margin:-1% auto; 
+    margin:3% auto; 
     transform: rotate(15deg);
     z-index: 110;
    

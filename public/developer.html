@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content=”width=device-width, initial-scale=1”>
+    <title>Grace Miller</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <nav class="navbar  sticky-top  navbar-light ml-auto">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ml-auto">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="developer.html">Developer</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="editing.html">Editing</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="writing.html">Writing</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="strategist.html">Strategy</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        <li class="nav-item ml-auto">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="row sub-page-head no-gutter">
+            <div class="col-2 sub-page-left">
+                <h1>grace</h1>
+            </div>
+            <div class="col-10 sub-page-right">
+                <h1>miller</h1>
+            </div>
+        </div>
+        <div class="row no-gutter">
+            <div class="col-12 parallax-container">
+                <div class="parallax developer-parallax"></div>
+
+            </div>
+        </div>
+        <div class="row space-rows">
+            <div class="col-12 center-text">
+                <h4>A full-stack developer whose persistent state is learning.</h4>
+            </div>
+        </div>
+
+        <div class="row subject">
+
+            <div class="col-12 class-space">
+                <h3>FRONT-END</h3>
+                <button class="disp-button" value="html" onClick="expandMe('1')">HTML</button>
+                <button class="disp-button" value="css" onClick="expandMe('1')">CSS</button>
+                <button class="disp-button" value="javascript" onClick="expandMe('1')">Javascript</button>
+                <button class="disp-button" value="jquery" onClick="expandMe('1')">jQuery</button>
+                <button class="disp-button" value="bootstrap" onClick="expandMe('1')">Bootstrap</button>
+                <button class="disp-button" value="handlebars" onClick="expandMe('1')">Handlebars</button>
+                <button class="disp-button" value="responsivedesign" onClick="expandMe('1')">Responsive Design</button>
+            </div>
+        </div>
+        <section class="row" id="display-row1" data-current="">
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-img1">
+                <p>something</p>
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-content1">
+                <p>something</p>
+            </div>
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+        </section>
+        <div class="row subject2">
+
+            <div class="col-12 class-space">
+                <h3>DATABASE</h3>
+                <button class="disp-button" value="mysql" onClick="expandMe('2')">MySQL</button>
+                <button class="disp-button" value="mongodb" onClick="expandMe('2')">MongoDb</button>
+                <button class="disp-button" value="sequelize" onClick="expandMe('2')">Sequelize</button>
+                <button class="disp-button" value="mongoose" onClick="expandMe('2')">Mongoose</button>
+            </div>
+        </div>
+        <section class="row " id="display-row2" data-current="">
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-img2">
+                <p>something</p>
+            </div>
+            <div class="col-sm-12 col-md-4 center-text " id="display-col-content2">
+                <p>something</p>
+            </div>
+            <div class="col-sm-0 col-md-2 ">
+
+            </div>
+        </section>
+        <div class="row subject">
+
+            <div class="col-12 class-space">
+                <h3>BACK-END</h3>
+                <button class="disp-button" value="nodejs" onClick="expandMe('3')">Node.js</button>
+                <button class="disp-button" value="apis" onClick="expandMe('3')">APIs</button>
+                <button class="disp-button" value="expressserver" onClick="expandMe('3')">Express Server</button>
+                <button class="disp-button" value="userauthentication" onClick="expandMe('3')">User Authentication</button>
+                <button class="disp-button" value="react" onClick="expandMe('3')">React</button>
+            </div>
+        </div>
+        <section class="row " id="display-row3" data-current="">
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-img3">
+                <p>something</p>
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-content3">
+                <p>something</p>
+            </div>
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+        </section>
+
+        <div class="row subject2">
+
+            <div class="col-12 class-space">
+                <h3>CURRENTLY LEARNING</h3>
+                <button class="disp-button" value="php" onClick="expandMe('4')">PHP</button>
+                <button class="disp-button" value="wordpress" onClick="expandMe('4')">WordPress</button>
+                <button class="disp-button" value="sass" onClick="expandMe('4')">Sass</button>
+            </div>
+        </div>
+        <section class="row " id="display-row4" data-current="">
+            <div class="col-sm-0 col-md-2">
+
+            </div>
+            <div class="col-sm-12 col-md-4 center-text" id="display-col-img4">
+                <p>something</p>
+            </div>
+            <div class="col-sm-12 col-md-4 center-text " id="display-col-content4">
+                <p>something</p>
+            </div>
+            <div class="col-sm-0 col-md-2 ">
+
+            </div>
+        </section>
+
+
+
+
+
+        <div class="row center-text subject">
+            <div class="col-12">
+                <h3>MY TOOLBOX </h3>
+                MAMP, Heroku, Github, Git, VS Code, Adobe Creative Suite, Slack
+            </div>
+
+
+        </div>
+
+
+        <div class="row space-rows">
+            <div class="col-12 center-text">
+                <h4>Why Web Development?</h4>
+                <p>
+                    I spent many years using web applications on a regular basis as a writer and editor, and I always
+                    wondered how they worked. When I started digging deeper, I discovered that development was more
+                    than a passing interest - I coded something and it worked. In that moment, I was hooked.
+                </p>
+            </div>
+        </div>
+
+        <footer class="row social-row">
+            <div class="col-12">
+                    <p>FIND ME: &nbsp;
+                            <a href="https://github.com/gracemiller23"><span class="fab fa-github"></span></a> &nbsp;
+                            <a href="https://stackoverflow.com/users/9592072/g-miller"><span class="fab fa-stack-overflow"></span></a> &nbsp;
+                            <a href="https://www.linkedin.com/in/grace-miller-a9903161/"><span class="fab fa-linkedin"></span></a>&nbsp;
+                            <a href="https://codepen.io/gemiller/"><span class="fab fa-codepen"></span></a>
+                        </p>
+            </div>
+
+        </footer>
+
+
+        <!--ends container-fluid-->
+    </div>
+
+
+
+    <script src="assets/js/portfolio.js"></script>
+</body>
+
+</html>

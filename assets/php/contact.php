@@ -15,6 +15,7 @@
   if ($_POST['submit']) {
     if (mail ($to, $subject, $body, $from)) { 
       $success = "Message successfully sent";
+      header('Location: thanks.html');
     } else { 
       $success = "Message Sending Failed, try again"; 
   }

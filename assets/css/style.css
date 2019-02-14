@@ -80,6 +80,12 @@ footer a{
 
 .no-deco-link{
     text-decoration: none;
+    color:inherit;
+}
+
+.no-hover:hover{
+    text-decoration: none;
+    color:inherit;
 }
 
 .nav-row{
@@ -447,7 +453,8 @@ footer a{
     position:absolute;
     top:0;
     left:18%;
-    padding-top:5%;
+    padding-top:4%;
+    font-size:4vh;
     animation-name:audience-in;
     animation-duration:2s;
 }
@@ -490,7 +497,8 @@ footer a{
     position:absolute;
     top:27%;
     right:-100%;
-    padding-top:8%;
+    padding-top:4%;
+    font-size:1.6em;
     color: white;
     animation-name:brand-in;
     animation-duration: 2s;
@@ -507,7 +515,8 @@ footer a{
     position:absolute;
     bottom:0;
     left:-100%;
-    padding-top:7%;
+    padding-top:5%;
+    font-size:1.5em;
     animation-name: result-in;
     animation-delay:3.5s;
     animation-fill-mode: forwards;
@@ -742,7 +751,7 @@ footer a{
 
     .scatter-layout-1 h4{
         padding-top:8%;
-        font-size: 1.5em;
+        font-size: 4vh;
     }
   
     .scatter-layout-2{
@@ -751,8 +760,8 @@ footer a{
     }
 
     .scatter-layout-2 h4{
-        padding-top:8%;
-        font-size: 1.5em;
+        padding-top:11%;
+        font-size: 4vh;
     }
     
     .scatter-layout-3{
@@ -760,8 +769,8 @@ footer a{
     }
 
     .scatter-layout-3 h4{
-        padding-top:8%;
-        font-size: 1.5em;
+        padding-top:25%;
+        font-size: 4vh;
     }
 
 

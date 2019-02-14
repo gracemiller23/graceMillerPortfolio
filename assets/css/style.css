@@ -815,7 +815,9 @@ footer a{
         
         }
     
-
+        .parallax.strategist-parallax{
+            background-size:200vw; 
+        }
     
     .intro{
         margin-top:-17%;

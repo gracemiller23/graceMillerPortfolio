@@ -197,9 +197,7 @@ footer a{
     }
 
 .parallax.developer-parallax{
-    background-image:url('../images/developer.jpg');
-    background-position: 10% 108%;
-    background-size:100vw; 
+    background-image:url('../images/laptop.jpg');
 
 }
 
@@ -234,11 +232,12 @@ footer a{
 
 /*Home page styles*/
 .intro{
-    height:110vh;
+    height:105vh;
     position:relative;
     padding:0px;
     width:100%;
     margin-bottom:0px;
+    margin-top:-6%;
 }
 
 .headeroverlap{
@@ -300,7 +299,7 @@ footer a{
 }
 
 .white-bottom, .teal-bottom{
-    font-size:16px;
+    font-size:14px;
     height:100%;
 }
 .white-bottom{
@@ -327,7 +326,6 @@ footer a{
 .row-img{
     display:inline;
     max-width:100%;
-    height:auto;
     padding:0px;
     margin:0px;
 }
@@ -714,8 +712,19 @@ footer a{
      height:auto;
  }
 
-@media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 960px){
+    .intro{
+        margin-top:-8%;
+    }
 
+
+ }
+
+@media only screen and (max-width: 800px) {
+    .row-label-tr, .row-label-bl, .row-label-br, .row-label-tl{
+        visibility: visible;
+        opacity: 0.55;
+    }
 
     .sub-page-head{
         
@@ -756,31 +765,15 @@ footer a{
     }
 
 
-    /************************Parallax effect mobile adjustments*******************************/
 
 
-
-.parallax.editing-parallax{
-    
-    background-size:100vw; 
-    
-    }
-
-.parallax.developer-parallax{
-   
-    background-position: 80% 390%;
-    background-size:140vw; 
-
-}
-
-.parallax.strategist-parallax{
-    
-    background-size:100vw; 
-}
 
 }
 
 @media only screen and (max-width: 768px){
+    h2 {
+        line-height: 1.3em;
+    }
     nav .ml-auto{
         margin:0 auto;
     }
@@ -794,11 +787,31 @@ footer a{
     .navbar-toggler{
         margin: 0 auto;
     }
+
+    .about-img{
+        width:60%;
+}
+
+.intro{
+    margin-top:-12%;
+}
+
+
 }
 
 @media only screen and (max-width: 575px) {
+    .parallax.editing-parallax{
+    
+        background-size:100vw; 
+        
+        }
     
 
+    
+    .intro{
+        margin-top:-17%;
+        height:110vh;
+    }
    .vertical-writing{
       writing-mode: initial;
  

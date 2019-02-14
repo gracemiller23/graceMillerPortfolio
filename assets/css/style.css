@@ -96,6 +96,10 @@ footer a{
     z-index: 5000;
 }
 
+.navbar{
+    z-index:5000;
+}
+
 .navbar-nav{
     background-color: white;
     border: 1px solid black;
@@ -115,6 +119,15 @@ footer a{
 .navbar li:last-of-type{
     border-bottom:none;
 }
+/* 
+.dropdown-menu .show{
+    padding:1%;
+    width: 100%;
+}
+.homepage-nav li{
+    border-bottom:none;
+    padding:1%;
+} */
 
 .no-gutter > [class*='col-'] {
     padding-right:0;
@@ -244,6 +257,7 @@ footer a{
     width:100%;
     margin-bottom:0px;
     margin-top:-6%;
+    z-index:1000;
 }
 
 .headeroverlap{
@@ -732,7 +746,7 @@ footer a{
 @media only screen and (max-width: 800px) {
     .row-label-tr, .row-label-bl, .row-label-br, .row-label-tl{
         visibility: visible;
-        opacity: 0.55;
+        opacity: 0.65;
     }
 
     .sub-page-head{

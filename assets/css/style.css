@@ -750,7 +750,7 @@ footer a{
     }
 
     .scatter-layout-1 h4{
-        padding-top:8%;
+        padding-top:18%;
         font-size: 4vh;
     }
   
@@ -760,7 +760,7 @@ footer a{
     }
 
     .scatter-layout-2 h4{
-        padding-top:11%;
+        padding-top:16%;
         font-size: 4vh;
     }
     
@@ -826,7 +826,7 @@ footer a{
     }
 
     .parallax.writing-parallax{
-        background-size: 200vw;
+        background-size: 100vw;
     }
     
     .intro{

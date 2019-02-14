@@ -86,7 +86,7 @@ footer a{
     position: absolute;
     top:0;
     right:0;
-    z-index: 999;
+    z-index: 5000;
 }
 
 .navbar-nav{
@@ -444,7 +444,6 @@ footer a{
 
 .scatter-layout-1{
     height:200px;
-    width:200px;
     border: 4px dashed #a2e8d1;
     border-radius: 50%;
     background-color:white;
@@ -719,15 +718,108 @@ footer a{
 
 @media only screen and (max-width: 800px) {
 
-    
-    .scatter-layout-1{
-        padding-top:7%;
-    }
-
     .sub-page-head{
         
         font-size:1.4vh;
     }
+
+
+.scatter-layout-container{
+    height:75vh;
+}
+
+    .scatter-layout-1{
+        height:30vh;
+    }
+
+    .scatter-layout-1 h4{
+        padding-top:8%;
+        font-size: 1.5em;
+    }
+  
+    .scatter-layout-2{
+        height:30vh;
+       
+    }
+
+    .scatter-layout-2 h4{
+        padding-top:8%;
+        font-size: 1.5em;
+    }
+    
+    .scatter-layout-3{
+        height:30vh;
+    }
+
+    .scatter-layout-3 h4{
+        padding-top:8%;
+        font-size: 1.5em;
+    }
+
+
+    /*******************************************************/
+
+.parallax-container{
+    width:100%;
+    position:relative;
+    height:200px;
+    }
+
+.parallax {
+        /*reset background image with child classes*/
+        background-image: url('img_parallax.jpg');
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.parallax.writing-parallax{
+    background-image:url('../images/writer.jpg');
+    }
+
+.parallax.editing-parallax{
+    background-image:url('../images/editor-parallax.jpg');
+    background-size:100vw; 
+    
+    }
+
+.parallax.developer-parallax{
+    background-image:url('../images/developer.jpg');
+    background-position: 80% 390%;
+    background-size:140vw; 
+
+}
+
+.parallax.strategist-parallax{
+    background-image: url('../images/strategist.jpg');
+    background-size:100vw; 
+}
+
+
+.parallax-content-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    padding: 5%;
+        
+    }
+    
+.parallax-content{
+    position:absolute;
+    }
+
+.parallax-content h4{
+    font-size:6vh;
+}
+
+.parallax-content.writing-parallax{
+    top:18vh;
+    left:30vw;
+}
+
 }
 
 @media only screen and (max-width: 575px) {

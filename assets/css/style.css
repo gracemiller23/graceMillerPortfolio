@@ -805,19 +805,29 @@ footer a{
     margin-top:-12%;
 }
 
+.parallax {
+    height: 100%; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 }
 
 @media only screen and (max-width: 575px) {
     .parallax.editing-parallax{
-    
         background-size:100vw; 
-        
-        }
+    }
     
-        .parallax.strategist-parallax{
+    .parallax.strategist-parallax{
             background-size:200vw; 
-        }
+    }
+
+    .parallax.writing-parallax{
+        background-size: 200vw;
+    }
     
     .intro{
         margin-top:-17%;

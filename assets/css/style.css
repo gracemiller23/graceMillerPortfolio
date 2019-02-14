@@ -413,7 +413,7 @@ footer a{
 
 /*Sub-Pages Header*/
 .sub-page-head{
-    position:relative;
+   
     width:100vw;
     font-size:2vh;
 }
@@ -426,7 +426,7 @@ footer a{
 }
 
 .sub-page-right{
-        position:relative;
+        
         text-align: left;
         padding-left:0px;
         background-color:#adf7df ;
@@ -726,7 +726,7 @@ footer a{
 
     .sub-page-head{
         
-        font-size:4vh;
+        font-size:1.4vh;
     }
 }
 

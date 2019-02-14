@@ -82,10 +82,11 @@ footer a{
     text-decoration: none;
 }
 
-.navbar{
+.nav-row{
     position: absolute;
     top:0;
     right:0;
+    width: 30%;
     z-index: 5000;
 }
 
@@ -413,8 +414,6 @@ footer a{
 
 /*Sub-Pages Header*/
 .sub-page-head{
-   
-    width:100vw;
     font-size:2vh;
 }
 .sub-page-left{
@@ -428,7 +427,6 @@ footer a{
 .sub-page-right{
         
         text-align: left;
-        padding-left:0px;
         background-color:#adf7df ;
         color:white;
         border-bottom: 2vh solid white;
@@ -718,11 +716,12 @@ footer a{
 
 @media only screen and (max-width: 800px) {
 
+
     .sub-page-head{
         
         font-size:1.4vh;
     }
-
+    /***************************Writing page mobile adjustments****************************/
 
 .scatter-layout-container{
     height:75vh;
@@ -757,7 +756,7 @@ footer a{
     }
 
 
-    /*******************************************************/
+    /************************Parallax effect mobile adjustments*******************************/
 
 
 
@@ -779,11 +778,26 @@ footer a{
     background-size:100vw; 
 }
 
+}
 
+@media only screen and (max-width: 768px){
+    nav .ml-auto{
+        margin:0 auto;
+    }
 
+    .nav-row{
+        position:relative;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 575px) {
+    
 
    .vertical-writing{
       writing-mode: initial;

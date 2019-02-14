@@ -747,7 +747,12 @@ footer a{
     .row-label-tr, .row-label-bl, .row-label-br, .row-label-tl{
         visibility: visible;
         opacity: 0.65;
+        font-size:2vh;
     }
+    .row-label-tl .center-all{
+        padding-top:30%;
+    }
+  
 
     .sub-page-head{
         

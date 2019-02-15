@@ -188,7 +188,9 @@ footer a{
     padding:3%;
 }
 
-
+.progress{
+    margin: 2% 0;
+}
 /*Parallax Effect*/
 .parallax-container{
     width:100%;
@@ -617,7 +619,7 @@ footer a{
   text-align:center;
  }
  
- #display-row1{
+ #display-row1, #display-row3{
    display:none;
    background-color:#a2e8d1;
    color:white;
@@ -630,7 +632,7 @@ footer a{
      width:100%;
     height:auto;
  }
- #display-row2{
+ #display-row2, #display-row4{
     display:none;
     background-color:white;
     color:black;
@@ -638,35 +640,14 @@ footer a{
     border-top: 2px dotted white;
    
   }
- 
 
-  #display-row3{
-    display:none;
-    background-color:#a2e8d1;
-    color:white;
-    padding:2%;
-    border-top: 2px dotted white;
-   
-  }
-
-
-  #display-row4{
-    display:none;
-    background-color:#a2e8d1;
-    color:white;
-    padding:2%;
-    border-top: 2px dotted white;
-   
-  }
- 
- 
  .disp-button{
    padding:1%;
    color:white;
    font-weight:bold;
    border:none;
    background: linear-gradient(to right, white 50%, #a2e8d1 50%);
-   background-size: 235% 110%;
+   background-size: 250% 110%;
    background-position: right bottom;
    transition: all .5s ease-out;
    margin:1%;

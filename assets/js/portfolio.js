@@ -30,7 +30,7 @@ const portfolio = {
         percent: "100"
     },
     handlebars: {
-        content: `${comingContent}`,
+        content: `<h3>PTSD App</h3><p>During my coding boot camp, I worked with a group to create a hypothetical online community for veterans with PTSD. I created the Handlebars views for the event-related portions of the site and utilized custom helpers. You can view the code <a href="https://github.com/gracemiller23/project-2-refactor">here</a> and the app <a href="https://powerful-gorge-39602.herokuapp.com">here</a>(use username "gmportfolio@test.com" and password "gmportfolio"). It is still a work in progress as I work to refactor my code and add new components.</p>`,
         image: `${comingImage}`,
         percent: "60"
     },
@@ -40,7 +40,12 @@ const portfolio = {
         percent: "100"
     },
     mysql: {
-        content: `${comingContent}`,
+        content: `<h3>PTSD App</h3><p>During my coding boot camp, I worked with a group to create a hypothetical 
+        online community for veterans with PTSD. I created the events portion of the project, which allows users to create, edit, and delete events, as well as their attendance of and comments on an event. 
+        You can view the code <a href="https://github.com/gracemiller23/project-2-refactor">here</a> 
+        and the app <a href="https://powerful-gorge-39602.herokuapp.com">here</a>
+        (use username "gmportfolio@test.com" and password "gmportfolio"). 
+        It is still a work in progress as I work to refactor my code and add new components, including a zip code search for nearby events.</p>`,
         image: `${comingImage}`,
         percent: "75"
     },
@@ -50,7 +55,9 @@ const portfolio = {
         percent: "75"
     },
     sequelize: {
-        content: `${comingContent}`,
+        content: `<h3>PTSD App</h3><p>During my coding boot camp, 
+        I worked with a group to create a hypothetical online community for veterans with PTSD. 
+        I created the Sequelize models and interactions for the events portion of the site. You can view the code <a href="https://github.com/gracemiller23/project-2-refactor">here</a> and the app <a href="https://powerful-gorge-39602.herokuapp.com">here</a>(use username "gmportfolio@test.com" and password "gmportfolio"). It is still a work in progress as I work to refactor my code and add new components.</p>`,
         image: `${comingImage}`,
         percent: "75"
     },
@@ -60,7 +67,7 @@ const portfolio = {
         percent: "75"
     },
     nodejs: {
-        content: `${comingContent}`,
+        content: `<h3>PTSD App</h3><p>During my coding boot camp, I worked with a group to create a hypothetical online community for veterans with PTSD that is powered by Node. I created the the event-related portions of the site and utilized custom helpers. You can view the code <a href="https://github.com/gracemiller23/project-2-refactor">here</a> and the app <a href="https://powerful-gorge-39602.herokuapp.com">here</a>(use username "gmportfolio@test.com" and password "gmportfolio"). It is still a work in progress as I work to refactor my code and add new components.</p>`,
         image: `${comingImage}`,
         percent: "50"
     },
@@ -70,7 +77,7 @@ const portfolio = {
         percent: "90"
     },
     expressserver: {
-        content: `${comingContent}`,
+        content: `<h3>PTSD App</h3><p>During my coding boot camp, I worked with a group to create a hypothetical online community for veterans with PTSD. I helped configure portions of the express server, such as the incorporation of Handlebars as the view engine. You can view the code <a href="https://github.com/gracemiller23/project-2-refactor">here</a> and the app <a href="https://powerful-gorge-39602.herokuapp.com">here</a>(use username "gmportfolio@test.com" and password "gmportfolio"). It is still a work in progress as I work to refactor my code and add new components.</p>`,
         image: `${comingImage}`,
         percent: "40"
     },

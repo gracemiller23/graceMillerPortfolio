@@ -56,7 +56,7 @@ button{
 
 
 a{
-    color: black;
+    color: inherit;
     text-decoration: underline;
 }
 
@@ -714,6 +714,11 @@ footer a{
  .article img{
      width: 80%;
      height:auto;
+ }
+
+ .pdf-sampler{
+     width:100%;
+     height:900px;
  }
 
  @media only screen and (max-width: 960px){

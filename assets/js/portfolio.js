@@ -5,17 +5,17 @@ const comingImage = "https://via.placeholder.com/350x150";
 const portfolio = {
 
     html: {
-        content: `<p>I started learning HTML as a senior in college, when I built my first website for my senior portfolio. While the website didn't last, the knowledge did. When I returned to coding throughout my writing and editing career, I kept up with evolving standards for HTML5.`,
+        content: `<h3>My Portfolio</h3><p>I started learning HTML as a senior in college, when I built my first website for my senior portfolio. Want to see a sample? You're looking at it. While I used Bootstrap on this site, I also customized it extensively.</p>`,
         image: `${comingImage}`,
         percent: "100"
     },
     css: {
-        content: `${comingContent}`,
+        content: `<h3>Writing Page Animation</h3><p>As most developers do, I learned CSS simultaneously with HTML. CSS has grown in some incredible ways over the years, with exciting options like animations. I built the CSS for this site, and I've also used CSS to <a href='http://gpdconstruction.com'>extensively customize WordPress Themes.</a></p>`,
         image: `${comingImage}`,
         percent: "90"
     },
     javascript: {
-        content: `${comingContent}`,
+        content: `<h3>A Tabbed Display</h3><p>The tabbed display you see on this page works across multiple rows using the values stored in these buttons. You can see the code for it <a href='https://github.com/gracemiller23/graceMillerPortfolio/blob/master/assets/js/portfolio.js'>here.</a> You can also see some basic form validation work <a href='https://github.com/gracemiller23/graceMillerPortfolio/blob/master/assets/js/contactValidation.js'>here</a>.</p>`,
         image: `${comingImage}`,
         percent: "70"
     },
@@ -25,7 +25,7 @@ const portfolio = {
         percent: "70"
     },
     bootstrap: {
-        content: `${comingContent}`,
+        content: `<h3>You're Looking at It</h3><p>For a sample of my Bootstrap work, look no further than this portfolio. While I regularly used Bootstrap during my coding boot camp, I was often more focused on learning new coding skills than creating intensive designs. While working on this site, I had more time to polish and implement all of the Bootstrap knowledge I built throughout the course.</p>`,
         image: `${comingImage}`,
         percent: "100"
     },
@@ -35,7 +35,7 @@ const portfolio = {
         percent: "60"
     },
     responsivedesign: {
-        content: `${comingContent}`,
+        content: `<h3>Flexbox & Bootstrap</h3><p>Throughout my portfolio, you will see responsive design elements. While I used Bootstrap to achieve most of these effects, I am also comfortable using flexbox.</p>`,
         image: `${comingImage}`,
         percent: "100"
     },
@@ -85,12 +85,12 @@ const portfolio = {
         percent: "45"
     },
     php: {
-        content: `${comingContent}`,
+        content: `<h3>Contact Form</h3><p>While I'm still learning how to overlay the programming principles I learned through my boot camp onto PHP, an example of an early piece of work is <a href='././contact.html'>my contact form</a>. I built it using bits of information and code from around the web to achieve my desired effects.</p>`,
         image: `${comingImage}`,
         percent: "20"
     },
     wordpress: {
-        content: `${comingContent}`,
+        content: `<h3>Themes & Plugins Coming Soon</h3><p>WordPress is actually what really sparked my interest in making the leap to web development. I created child themes and customized them in the past, and I often found that the plugins I needed were unavailable. Queue my desire to just do it myself. You can see themes I've customized <a href='https://spousehood.com'>here</a> and <a href='http://gpdconstruction.com'>here</a>. In the next few weeks I'll be loading a custom theme I created.</p>`,
         image: `${comingImage}`,
         percent: "20"
     },
